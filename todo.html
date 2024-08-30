@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Alarm - My Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="todo.html" style="color:  rgb(194, 100, 100);">To-Do List</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>To-Do List with Alarm</h1>
+        <div class="input-container">
+            <input type="text" id="todoInput" placeholder="Enter a new task">
+            <input type="time" id="alarmTime" placeholder="Set Alarm Time">
+            <button id="addBtn">Add</button>
+        </div>
+        <ul id="todoList"></ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
